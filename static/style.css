@@ -21,7 +21,7 @@
         background-image: linear-gradient(300deg, orange, white);
         height: 1800px;
         width: 1200px;
-        padding: 150px;
+        padding: 100px;
 }
 
 /***************************************************/
@@ -70,12 +70,13 @@ languagepicklist{
 /*  Submit button                                  */
 /***************************************************/
 
-#submitbutton {
+#submitbutton, #gobackbutton {
     height: 40px;
     width: 100px;
     border-radius: 9px;
     box-shadow: 3px 3px 3px orange;
     background-color: yellowgreen;
+    margin-top: 20px;
     margin-left: 300px;
 }
 
