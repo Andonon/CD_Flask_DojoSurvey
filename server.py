@@ -17,5 +17,8 @@ def processpage():
     print "Got Post Info"
     print request.form
     name = request.form['name']
-    return render_template("process.html", name=name)
+    dojo = request.form['dojo']
+    language = request.form['language']
+    comment = request.form['comment']
+    return render_template("process.html", name=name, dojo=dojo, language=language, comment=comment)
 app.run(debug=True)

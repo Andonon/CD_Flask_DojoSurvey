@@ -11,13 +11,16 @@
     <body>
         <div id='wrapper'>
             <h1>Submitted Form Data</h1>
-            <h3>Your input was received:</h3>
-            <h3>I see that your name is: {{ name }}</h3>
-
-            <p>The server has processed your input and returned this answer.</p>
-            <p>The sultan of Brunai and his agents will be contacting you shortly about the $$ transfer... Check your email</p>
-
-            <p><strong>Note:</strong> This tutorial will not teach you how servers are processing input.</p>
+            <h3>Your input was received:</h3><br>
+            <h4>Name: </h4><p>{{ name }}</p><br>
+            <h4>Your Dojo: </h4><p>{{ dojo }}</p><br>
+            <h4>You're favorite language: </h4><p>{{ language }}</p><br>
+            <h4>Comments: </h4>{{ comment }}</p><br>
+            <br>
+            <p><i>The server has processed your input and returned this answer.</i></p>
+            <p><i>The sultan of Brunei and his agents may be contacting you shortly about the $$ transfer... Check your email<i></p>
+            <br>
+            <p><strong>Note:</strong> This tutorial taught me how servers are processing input. Thanks Coding Dojo!</p>
         </div>
     </body>
 </html>
