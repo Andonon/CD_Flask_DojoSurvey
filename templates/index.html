@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Dojo Survey</title>
+        <meta charset='utf-8' />
+        <link rel='stylesheet' href="{{url_for('static',filename='style.css')}}">
+        <meta description="Dojo Survey for Coding Dojo Flask fundamentals"
+    </head>
+    <body>
+        <div id='wrapper'>
+            <form action='/process' method='post'>
+                <p>What is your Name?</p><br>
+                <input type="text" name="name" placeholder="Enter your name here"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>

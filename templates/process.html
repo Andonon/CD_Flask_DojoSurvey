@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Forms Action Page</title>
+        <meta description='results page after form is completed'>
+        <meta charset='utf-8'/>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+        <script src='.js'></script>
+    </head>
+    <body>
+        <div id='wrapper'>
+            <h1>Submitted Form Data</h1>
+            <h3>Your input was received:</h3>
+            <h3>I see that your name is: {{ name }}</h3>
+
+            <p>The server has processed your input and returned this answer.</p>
+
+            <p><strong>Note:</strong> This tutorial will not teach you how servers are processing input.</p>
+        </div>
+    </body>
+</html>

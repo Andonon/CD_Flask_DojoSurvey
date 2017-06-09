@@ -1,0 +1,33 @@
+/*******************************************************************/
+/* Created: June 8 2017 by Troy Center, troycenter1@gmail.com.     */
+/* CSS for the Flask fundamentals assignment "Dojo Survey"      */
+/*******************************************************************/
+
+/***************************************************/
+/*               CSS reset settings                */
+/***************************************************/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+#wrapper {
+    padding: 50px;
+    background-image: linear-gradient(300deg, orange, white);
+}
+
+h1 {
+    text-align: center; 
+    margin: 20px;
+}
+footer {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/***************************************************/
+/*     MAIN CSS                                    */
+/***************************************************/
