@@ -14,7 +14,7 @@
 }
 
 /***************************************************/
-/*               CSS reset settings                */
+/*              Wrapper                            */
 /***************************************************/
 
 #wrapper {
@@ -23,28 +23,37 @@
         width: 1200px;
         padding: 150px;
 }
+
+/***************************************************/
+/*     These are the questions, in their own div   */
+/***************************************************/
 #normalinputs {
     margin: 50px;
 }
 
+/***************************************************/
+/*   These are the input boxes left and right side */
+/***************************************************/
+
+
 #inputleft {
     display: inline-block;
 }
-
 #inputright {
     display: inline-block;
     vertical-align: top;
     padding-left: 20px;
 }
-
 #dojopicklist {
     display: block;
 }
-
 languagepicklist{
     display: block;
 }
 
+/***************************************************/
+/*           This is the large comment box         */
+/***************************************************/
 
 #largeinputs {
     height: 200px;
@@ -56,11 +65,24 @@ languagepicklist{
     height: 150px;
     width: 400px;
 }
+
+/***************************************************/
+/*  Submit button                                  */
+/***************************************************/
+
 #submitbutton {
-    position: relative; 
-    top: 100px; 
-    left: 300px;
+    height: 40px;
+    width: 100px;
+    border-radius: 9px;
+    box-shadow: 3px 3px 3px orange;
+    background-color: yellowgreen;
+    margin-left: 300px;
 }
+
+/***************************************************/
+/*       Footer, fine print, my signature          */
+/***************************************************/
+
 
 footer {
     margin-top: 100px;
@@ -68,7 +90,3 @@ footer {
     font-size: 8px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-/***************************************************/
-/*     MAIN CSS                                    */
-/***************************************************/
