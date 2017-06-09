@@ -8,11 +8,32 @@
     </head>
     <body>
         <div id='wrapper'>
+            <div>
+            <h1>Dojo Survey</h1>
+            <h3>Enter survey for your chance to win $1,000,000,000,000,000,000!</h3>
+            </div>
             <form action='/process' method='post'>
-                <p>What is your Name?</p><br>
-                <input type="text" name="name" placeholder="Enter your name here"><br>
-                <input type="submit" value="Submit">
+                <div id="normalinputs">
+                    <div id="inputleft">
+                        <p>What is your Name?</p><br>
+                        <p>Dojo Location:</p><br>
+                        <p>Favorite Lanquage:</p><br>
+                    </div>
+                    <div id="inputright">
+                        <input  type="text" name="name" placeholder="Enter your name here"></p><br>
+                        <input  type="text" name="name" placeholder="Enter your name here"></p><br>
+                        <input  type="text" name="name" placeholder="Enter your name here"></p><br>
+                    </div>
+                </div>
+                    <div id="largeinputs">
+                    <p>Comment (optional)</p><br>
+                    <input id="largecomment" type="text" name="name"><br>
+                </div>
+                <input id="submitbutton" type="submit" value="Submit">
             </form>
         </div>
+        <footer>
+            <p>by Troy Center June 2017, Coding Dojo, Flask fundamentals.</p>
+        </footer>
     </body>
 </html>

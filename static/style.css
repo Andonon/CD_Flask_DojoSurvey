@@ -12,15 +12,40 @@
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
+
 #wrapper {
-    padding: 50px;
-    background-image: linear-gradient(300deg, orange, white);
+        background-image: linear-gradient(300deg, orange, white);
+        height: 1800px;
+        width: 1200px;
+        padding: 150px;
+}
+#normalinputs {
+    margin: 50px;
 }
 
-h1 {
-    text-align: center; 
-    margin: 20px;
+#inputleft {
+    display: inline-block;
 }
+
+#inputright {
+    display: inline-block;
+}
+#largeinputs {
+    height: 200px;
+    width: 350px;
+    position: relative;
+    left: 50px;
+}
+#largecomment {
+    height: 150px;
+    width: 400px;
+}
+#submitbutton {
+    position: relative; 
+    top: 100px; 
+    left: 300px;
+}
+
 footer {
     margin-top: 100px;
     text-align: center;
