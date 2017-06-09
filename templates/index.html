@@ -20,14 +20,35 @@
                         <p>Favorite Lanquage:</p><br>
                     </div>
                     <div id="inputright">
-                        <input  type="text" name="name" placeholder="Enter your name here"></p><br>
-                        <input  type="text" name="name" placeholder="Enter your name here"></p><br>
-                        <input  type="text" name="name" placeholder="Enter your name here"></p><br>
+                        <p><input  type="text" name="name" placeholder="Enter your name here" maxlength="50"></p><br>
+                        <p><select id="dojopicklist" name="dojo">
+                            <option value="Seattle">Seattle</option>
+                            <option value="SiliconValley">Silicon Valley</option>
+                            <option value="Los Angeles">Los Angeles</option>
+                            <option value="Dallas">Dallas</option>
+                            <option value="WashingtonDC">Washington DC</option>
+                            <option value="Chicago">Chicago</option>
+                            <option value="Tulsa">Tulsa</option>
+                            <option value="Berkley">Berkley (coming soon...)</option>
+                            <option value="OrangeCounty">Orange County (coming soon...)</option>
+                        </select></p><br>
+                        <p><select id="languagepicklist" name="language">
+                            <option value="HTMLCSS">HTML/CSS</option>
+                            <option value="JavsScript">JavsScript</option>
+                            <option value="Python">Python</option>
+                            <option value="SQL">SQL</option>
+                            <option value="Cplusplus">C++</option>
+                            <option value="Csharp">C#</option>
+                            <option value="Perl">Perl</option>
+                            <option value="IOSMobile">IOS/Mobile</option>
+                            <option value="PHP">PHP</option>
+                        </select></p><br>
                     </div>
                 </div>
                     <div id="largeinputs">
                     <p>Comment (optional)</p><br>
-                    <input id="largecomment" type="text" name="name"><br>
+                    <textarea id="commentarea" name="comment" rows="10" cols="50" maxlength="500" placeholder="500 char max"></textarea>
+                    <!--<input id="largecomment" type="text" name="name"><br>-->
                 </div>
                 <input id="submitbutton" type="submit" value="Submit">
             </form>
